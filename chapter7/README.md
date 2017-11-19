@@ -1,3 +1,6 @@
 # Firstrepository
-Dare to code
-And this is master where I can start writing things.
+This chapter of code examples illustrate the use of prototypes and function call in c++ PROGRAMMING.
+
+
+
+
