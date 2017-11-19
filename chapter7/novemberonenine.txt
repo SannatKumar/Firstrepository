@@ -1,0 +1,216 @@
+    1  touch /etc/apt/sources.list.d/vscode.list
+    2  cd /etc/apt/
+    3  ls
+    4  cd sources.list.d/
+    5  ls
+    6  ls -a
+    7  touch vscode.list
+    8  touch vscode.txt
+    9  su 
+   10  su
+   11  sudo passwd
+   12  su
+   13  sudo dpkg -i code_1.16.1-1505406497_amd64.deb
+   14  sudo dpkg -i <file>.deb
+   15  cd downloads
+   16  cd Downloads
+   17  sudo dpkg -i code_1.16.1-1505406497_amd64.deb
+   18  sudo apt -get install -f
+   19  sudo apt-get install -f
+   20  curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+   21  sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+   22  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+   23  sudo apt-get update
+   24  sudo apt-get install code
+   25  cd Documents
+   26  mkdir cProgramming
+   27  ls
+   28  cd cProgramming/
+   29  touch helloWorld.txt
+   30  ls
+   31  gedit helloWorld.txt 
+   32  wq
+   33  ls
+   34  gedit helloWorld.c 
+   35  cd ..
+   36  sudo apt-get install build-essential
+   37  clear
+   38  cd Documents/
+   39  cd cProgramming/
+   40  ls
+   41  ls -a
+   42  gcc helloWorld.c  -o helloWorld
+   43  ./helloWorld 
+   44  cc helloWorld.c
+   45  a.out
+   46  LS
+   47  ls
+   48  a.out
+   49  rm a.out
+   50  ls
+   51  touch helloworldBreaks.c
+   52  ls
+   53  gedit helloworldBreaks.c 
+   54  gcc helloworldBreaks.c  -o helloworldBreaks
+   55  ./helloworldBreaks 
+   56  cd Documents/
+   57  ls
+   58  cd cProgramming/
+   59  ls
+   60  mkdir helloworld
+   61  ls
+   62  mv helloworldBreaks.c/helloworld
+   63  mv --help
+   64  ls
+   65  mv /Documents/cProgramming/helloworldBreaks.c/Documents/cProgramming/helloworld
+   66  mv /Documents/cProgramming/helloworldBreaks.c/Documents/cProgramming/helloworld/
+   67  mv /cProgramming/helloworldBreaks.c/Documents/cProgramming/helloworld/
+   68  mv /cProgramming/helloworldBreaks.c/Documents/cProgramming/helloworld
+   69  mv --help
+   70  cp /cProgramming/helloworldBreaks.c/Documents/cProgramming/helloworld/
+   71  ls
+   72  cp --help
+   73  cp /Documents/cProgramming/helloworldBreaks.c/Documents/cProgramming/helloworld/
+   74  ls
+   75  mkdir temperatureConverter
+   76  ls
+   77  cd temperatureConverter/
+   78  gedit tempConvert
+   79  ls
+   80  gedit tempConvert.c
+   81  gcc tempConvert.c -o tempTable
+   82  ./tempTable 
+   83  LS
+   84  ls
+   85  pwd
+   86  cd Documents/
+   87  cd cProgramming/
+   88  ls
+   89  cd temperatureConverter/
+   90  ls
+   91  gedit tempConvert.c 
+   92  ./tempTable 
+   93  gcc tempConvert.c -o tempTable 
+   94  ./tempTable 
+   95  gedit tempConvert.c 
+   96  gcc tempConvert.c -o tempTable 
+   97  ./tempTable 
+   98  gedit tempConvert.c 
+   99  gcc tempConvert.c -o tempTable 
+  100  ./tempTable 
+  101  gedit tempConvert.c 
+  102  gcc tempConvert.c -o tempTable 
+  103  ./tempTable 
+  104  ls
+  105  gedit celFahren.c
+  106  gcc celFahren.c -o tempTablecel 
+  107  gedit celFahren.c
+  108  gcc celFahren.c -o tempTablecel 
+  109  gedit celFahren.c
+  110  gcc celFahren.c -o tempTablecel 
+  111  gedit celFahren.c
+  112  gcc celFahren.c -o tempTablecel 
+  113  gedit celFahren.c
+  114  gcc celFahren.c -o tempTablecel 
+  115  ./tempTablecel 
+  116  gedit celFahren.c
+  117  gcc celFahren.c -o tempTablecel 
+  118  ./tempTablecel 
+  119  gedit celFahren.c
+  120  gcc celFahren.c -o tempTablecel 
+  121  ./tempTablecel 
+  122  gedit celFahren.c
+  123  gcc celFahren.c -o tempTablecel 
+  124  ./tempTablecel 
+  125  gedit celFahren.c
+  126  sudo apt -get install libxss1 libappindicator1 libindicator7
+  127  sudo apt - get install libxss1 libappindicator1 libindicator7
+  128  pwd
+  129  ls
+  130  ls -a
+  131  cd Documents/
+  132  cd ..
+  133  cd Documents/
+  134  touch help
+  135  gedit starting.c
+  136  pwd
+  137  ls
+  138  gcc starting.c -o starting1
+  139  gedit starting.c
+  140  gcc starting.c -o starting1
+  141  ./starting1 
+  142  cd
+  143  sudo apt-get install g++
+  144  history > not_for_print.txt
+  145  pwd
+  146  ls
+  147  gedit f_cpp_code.cpp
+  148  gedit not_for_print.txt 
+  149  pwd
+  150  ls
+  151  g++ f_cpp_code.cpp -o dodo
+  152  ./dodo
+  153  touch twoarg.cpp
+  154  gedit twoarg.cpp 
+  155  g++ twoarg.cpp -o twoargcomp
+  156  ./twoargcomp
+  157  gedit twoarg.cpp 
+  158  g++ twoarg.cpp -o twoargcomp
+  159  gedit twoarg.cpp 
+  160  g++ twoarg.cpp -o twoargcomp
+  161  gedit twoarg.cpp 
+  162  g++ twoarg.cpp -o twoargcomp
+  163  ./twoargcomp
+  164  touch lotto.cpp
+  165  gedit lotto.cpp 
+  166  g++ lotto.cpp -o lottocomp
+  167  gedit lotto.cpp 
+  168  g++ lotto.cpp -o lottocomp
+  169  gedit lotto.cpp 
+  170  g++ lotto.cpp -o lottocomp
+  171  ./lottocomp
+  172  git --version
+  173  sudo apt install git
+  174  git --version
+  175  pwd
+  176  ls
+  177  cd Documents/
+  178  mkdir c_plus_plus
+  179  ls
+  180  cd c_plus_plus/
+  181  git init
+  182  git remote add origin https://github.com/SannatKumar/Firstrepository.git
+  183  git pull origin master
+  184  git status
+  185  ls
+  186  cd
+  187  mv f_cpp_code.cpp /Documents/c_plus_plus
+  188  mv f_cpp_code.cpp Documents/c_plus_plus
+  189  cd Documents/
+  190  cd c_plus_plus/
+  191  ls
+  192  git status
+  193  git add f_cpp_code.cpp
+  194  git status
+  195  git commit -m "Use prototypes and function calls"
+  196  git push origin master
+  197  git status
+  198  git commit -m "Use prototypes and function calls"
+  199  git config --global "rz_kumr@yahoo.com"
+  200  git config --global user.email "rz_kumr@yahoo.com"
+  201  git config --global user.name "Sannat"
+  202  git status
+  203  git commit -m "Use prototypes and function calls"
+  204  git push origin master
+  205  git status
+  206  cd
+  207  ls
+  208  mv lotto.cpp twoarg.cpp Documents/c_plus_plus/
+  209  cd Documents/c_plus_plus/
+  210  ls
+  211  git status
+  212  git add lotto.cpp twoarg.cpp
+  213  git status
+  214  git commit -m "probability checking (lotto.cpp) and two arguments usecase(twoarg.cpp)" 
+  215  git push origin master
+  216  history > novemberonenine.txt
